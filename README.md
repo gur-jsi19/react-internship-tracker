@@ -1,16 +1,51 @@
-# React + Vite
+# Internship Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React project I built to track my internship applications for Summer 2026.
 
-Currently, two official plugins are available:
+It lets me store the companies I applied to, their status, and some notes, all in one place.  
+The data is saved in the browser so it does not disappear when I refresh.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add new applications
+- View application details
+- Edit existing applications
+- Delete applications
+- Filter by status (Applied, Interview, Offer, etc.)
+- Search by company or role
+- Sort by applied date
+- Dark mode support
+- Data stored in localStorage
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Used
+
+- React (Vite)
+- React Router
+- Tailwind CSS
+- JavaScript
+- LocalStorage
+
+---
+
+## Why I built this
+
+I am a computer science student preparing for internships.  
+I wanted a simple tool to manage all my job applications and also practice building a real React app.
+
+This project helped me learn:
+- routing with React Router
+- managing state
+- working with forms
+- saving data in localStorage
+
+---
+
+## How to run
+
+```bash
+npm install
+npm run dev
